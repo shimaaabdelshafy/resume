@@ -1,8 +1,131 @@
 body{
+text-align: center;
 
 }
 
-Navigation bar 
+/* Navigation bar  */
 .navbar-brand{
-    margin-left: 5rem;
+    margin-left: 15rem;
+}
+/* Title section */
+.heading{
+    background-color:#f0f0f0;
+   justify-content: space-around;
+   display: flex;
+   flex-flow:row;
+   flex-wrap:wrap;
+}
+.heading__cta{
+  flex-flow: column;
+  display: flex;
+  align-items: flex-end;
+}
+.heading__icon{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+.heading__vertical{
+ writing-mode:vertical-rl;
+ text-orientation:mixed;
+ color:lightgray;
+ font-weight: bold;
+ font-size: 1.5rem;
+
+}
+.heading__title{
+ padding: 8%;
+}
+.btn-blue{
+  background:-webkit-linear-gradient(left,#77d8d8,#0779e4);
+  padding:15px 50px;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  margin:20px 20px 20px 0;
+}
+.btn-blue:hover{
+  color:black;
+
+}
+.btn-white{
+  background-color:#fff;
+  padding:15px 50px;
+  color:black;
+  border:1px solid black;
+  cursor:pointer;
+}
+.btn-white:hover{
+  border:none;
+}
+<!-- Know about me section -->
+
+
+.intro{
+display:flex;
+
+}
+.intro__text {
+  padding:2%;
+  }
+.intro__content{
+max-width:500px;
+}
+
+/* Service section */
+.service{
+text-align: center;
+  padding: 8% 30%;
+
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  list-style-type: none;
+}
+.skills-title{
+  text-align: center;
+  padding: 8% 30%;
+
+}
+.work-title{
+  text-align: center;
+  padding: 8% 30%;
+}
+.card-wrapper{
+  display: flex;
+justify-content: center;
+}
+.card-wrapper-2{
+  display:flex;
+justify-content: center;
+}
+.card{
+  width:22rem;
+  height: 12rem;
+  margin: 1rem 1rem;
+}
+.card-1{
+  background-color: #0779e4;
+}
+
+/* testimoial */
+.testimonial{
+  text-align: center;
+  padding: 8% 30%;
+
+}
+.test-wrapper{
+  display:flex;
+  padding: 1% 30%
+}
+ /* Hire me Section */
+.hire-text{
+  text-align: center;
+  padding: 8% 30%;
+}
+.contacts{
+  text-align: center;
+  padding: 8% 30%;
 }
